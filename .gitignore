@@ -1,6 +1,28 @@
-*.class
+# Temporary files used by editors.
+*~
+*.swp
+.#*
+\#*
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# Project files from IDEs.
+.classpath
+.project
+.settings
+prj.el
+.jde/
+TAGS
+.taglist
+nb-configuration.xml
+nbactions.xml
+.ensime
+.idea/
+*.iml
+.checkstyle
+
+# Build and run artifacts.
+bin/
+target/
+build/
+logs/
+pids/
+pkg/

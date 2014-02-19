@@ -21,7 +21,7 @@ public class Driver {
 		// Attach all input neurons to the hiddenLayer neurons
 		for (int i = 0; i < 4; i++) {
 			hiddenLayer.add(new HiddenBackPropNeuron());
-			for (int j = 0; j <= 4; j++) {
+			for (int j = 1; j <= 4; j++) {
 				hiddenLayer.get(i).incomingSynapse(inputLayer.get(j),
 						(generator.nextDouble() * 2.0) - 1);
 			}
